@@ -198,6 +198,32 @@ transition: transform 0.3s ease-in-out;
     transform: scale(1.05); /* Adjust the scale factor for the pop-up size */
     box-shadow: 12px 12px 15px skyblue; /* Optional: Adjust hover shadow */
 }
+.image5{
+    height:500px;
+    width:400px;
+     position: absolute;
+     top: 2800px;
+     left: 60px;
+    margin-left: 10%;
+    margin-right:70% ;
+   
+  }
+  .image5 img{
+    height:500px;
+    width:500px;
+   margin-top: 20%;
+    justify-content: center;
+    border-radius: 10%;
+    display:flex;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+    box-shadow: 10px 10px 10px rgb(31, 144, 200);
+   
+  
+  }
+  .image5:hover img{
+    transform: scale(1.05); /* Adjust the scale factor for the pop-up size */
+    box-shadow: 12px 12px 15px skyblue; /* Optional: Adjust hover shadow */
+}
    body {
     cursor: none; /* Hide the default cursor */
 }
